@@ -14,3 +14,6 @@ def solution(a, b):
     #아니면 뒤에
 
     return int(answer)
+
+#def solution(a, b):
+#    return int(max(f"{a}{b}", f"{b}{a}"))
