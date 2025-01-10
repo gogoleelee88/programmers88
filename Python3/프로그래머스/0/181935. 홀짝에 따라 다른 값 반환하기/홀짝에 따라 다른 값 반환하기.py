@@ -11,3 +11,6 @@ def solution(n):
         for i in range(0,n+1,2):
             answer += i**2
     return answer
+
+#def solution(n):
+#    return sum(x ** (2 - x % 2) for x in range(n + 1) if n % 2 == x % 2)
