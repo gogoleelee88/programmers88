@@ -11,3 +11,7 @@ def solution(hp):
          hp-=sol
          count+=1
     return count+hp
+
+
+# def solution(hp):
+#   retrun hp//5+(hp%5//3)+((hp%5)%3))
